@@ -1,0 +1,19 @@
+1. What are the project models used in SDLC? Which model do you think is best and why?, Explain that model 
+   Agile, Waterfall, V-shaped, Literative, spiral Used SDLC and the best is Agile. Because agile helps teams and individuals effectively prioritize work and features
+2. Find more than 2 bugs and make a bug report in trello https://www.saucedemo.com, with the username "standard_user", invite us on trello or bug report that you make by email: faris.ardi@roomme.space
+   I create bug ticket in JIRA and already sent to email (faris.ardi@roomme.space)
+3. Suppose you are in a group of 5 people and in that group there is 1 stick of wood, and you are given the task to stand on the wooden stick, explain how the wooden stick did not break after 5 people stepped on it?
+   The wood can not break because it can only support one person so its member the group can stand on the wood one by one (step by step)
+4. Show data with parameters such as with postman : 
+- Name : Pres. Aasa Malik
+  https://ibb.co/fMnFcmx (screenshot Step)
+- Status : Active
+  https://ibb.co/z7fV7c0 (screenshot Step)
+- Gender : Female
+  https://ibb.co/FzhTyS9 (screenshot Step)
+5. 1. Display all detail in table “order” from low price to high price
+      SELECT * FROM Order ORDER BY Amount ASC;
+   2. Display the cust_name who purchased the prod_id A101 and A103
+      SELECT * FROM Customer Where prod_id (A101, A103);
+   3. Display All detail in table Product purchased by Budi
+      SELECT *FROM Product Where cust_name = ‘budi’;
