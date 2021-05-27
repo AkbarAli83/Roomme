@@ -17,3 +17,31 @@
       SELECT * FROM Customer Where prod_id (A101, A103);
    3. Display All detail in table Product purchased by Budi
       SELECT *FROM Product Where cust_name = ‘budi’;
+6. I will try to create with gherkin (im not experience with automation with open source)
+   Scenario : Sign Up 
+   Given : Sign Up Page 
+   When : User Open RoomMe.id Page 
+   Then : Sign up page will show 
+   
+   Scenario : Button Sign Up  
+   Given : Sign Up Process
+   When : User field all box with correct data
+   Then : Sign up sucess
+   
+   Scenario : Validation 
+   Given : Field box in  sign up page 
+   When : User not field one box in sign up form 
+   Then : Warning message will show 
+   
+   Scenario : Validation email 
+   Given : Field box in  sign up page 
+   When : User put email without "@"
+   Then : Warning message will show
+   
+   Scenario : Validation Password 
+   Given : Field box in  sign up page 
+   When : User put different password in box confirm password
+   Then : Warning message will show
+   
+   
+   
